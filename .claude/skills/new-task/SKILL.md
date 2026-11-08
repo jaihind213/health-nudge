@@ -18,6 +18,10 @@ description: Define a new HN-XXX task from the user's description (optionally wi
    specific, testable Acceptance criteria — always include: tests for new data/metrics
    functions, AppTest smoke test for any page, MIN_GROUP_SIZE suppression where
    participants are grouped, and pytest/isort/black/flake8 passing.
-6. Add a row to `tasks/INDEX.md` (ID link | Title | todo | empty PR).
-7. Show the user the task file. Do NOT create a branch or start implementing.
-   (Committing it happens with the task's own branch, or as the user asks.)
+6. Add the new task's row to `tasks/INDEX.md`, in ID order:
+   `| [HN-XXX](HN-XXX-short-slug.md) | Title | todo | |`.
+   This step is required: the task is not defined until its row is in INDEX.md.
+   Re-read INDEX.md to confirm the row is there.
+7. Do NOT create a branch or start implementing. (Committing the task file and
+   INDEX row happens with the task's own branch, or as the user asks.)
+8. Show the user the new task file and the updated INDEX.md table.
