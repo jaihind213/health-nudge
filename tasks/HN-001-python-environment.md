@@ -1,7 +1,7 @@
 ---
 id: HN-001
 title: Python environment
-status: in-review
+status: done
 wireframe: none
 branch: HN-001-python-environment
 pr: https://github.com/jaihind213/health-nudge/pull/1
