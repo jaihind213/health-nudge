@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Health Nudge project ---
+__pycache__/
+.streamlit/secrets.toml
+.env
+CLAUDE.local.md
+# root data dir only (src/health_nudge/data/ is code and must stay tracked)
+/data/
+*.parquet
+!tests/fixtures/**/*.parquet
+.pytest_cache/
+.mypy_cache/
