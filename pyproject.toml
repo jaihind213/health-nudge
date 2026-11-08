@@ -1,0 +1,18 @@
+[project]
+name = "health-nudge"
+version = "0.1.0"
+description = "Health Nudge analytics dashboard (aggregates only)"
+authors = [
+    {name = "vishnu", email = "jaihind213sg@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "health_nudge", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

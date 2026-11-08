@@ -1,9 +1,9 @@
 ---
 id: HN-001
 title: Python environment
-status: todo
+status: in-progress
 wireframe: none
-branch:
+branch: HN-001-python-environment
 pr:
 commits: []
 ---

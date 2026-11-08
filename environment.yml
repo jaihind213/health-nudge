@@ -1,0 +1,6 @@
+name: health-nudge
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - poetry
